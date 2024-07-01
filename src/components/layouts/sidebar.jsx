@@ -39,7 +39,7 @@ function SharedLayout() {
           <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
             <a href="/" className="flex items-center gap-2 font-semibold">
               <Package2 className="h-6 w-6" />
-              <span className="">Acme Inc</span>
+              <span className="">Sneaker Tracker</span>
             </a>
           </div>
           <div className="flex-1">
@@ -49,7 +49,7 @@ function SharedLayout() {
                 className="flex items-center gap-3 rounded-lg bg-muted px-3 py-2 text-primary transition-all hover:text-primary"
               >
                 <Home className="h-4 w-4" />
-                Home
+                Dashboard
               </a>
             </nav>
           </div>
@@ -75,14 +75,14 @@ function SharedLayout() {
                   className="flex items-center gap-2 text-lg font-semibold"
                 >
                   <Package2 className="h-6 w-6" />
-                  <span className="sr-only">Acme Inc</span>
+                  <span className="sr-only">Sneaker Tracker</span>
                 </a>
                 <a
                   href="#"
                   className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
                 >
                   <Home className="h-5 w-5" />
-                  Home
+                  Dashboard
                 </a>
               </nav>
             </SheetContent>
@@ -107,7 +107,7 @@ function SharedLayout() {
             </DropdownMenuContent>
           </DropdownMenu>
         </header>
-        <main className="flex flex-1">
+        <main className="flex flex-1 justify-center items-center">
           <Outlet />
         </main>
       </div>
